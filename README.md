@@ -24,13 +24,23 @@
             <pre><code>pip install -r requirements.txt</code></pre>
         </li>
         <li>Создайте файл с названием ".env" в корневой директории проекта и добавьте в него свой токен Telegram Bot API в формате 
-            <pre><code>TOKEN=токен_бота</code></pre></li>
+            <pre><code>TOKEN=токен бота
+DB_HOST=хост
+DB_USER=имя пользователя
+DB_PASSWORD=пароль 
+DB_NAME=имя бд
+</code></pre></li>
         На windows можно использовать команду echo
-            <pre><code>echo TOKEN=6518777001:AAGyeaQyHYXMw6VdcAeuj599qels7JyfYjq > .env</code></pre></li>
-        Вставьте свой токен бота вместо указанного в примере.
+            <pre><code>echo "TOKEN=6518777001:AAGyeaQyHYXMw6VdcAeuj599qels7JyfYjq" "DB_HOST=localhost" "DB_USER=user" "DB_PASSWORD=BIN!KBK7WVdr/)-t" "DB_NAME=chatbottests" > .env</code></pre></li>
+        <p>Вставьте свои данные вместо указанного в примере.</p>
+        <p>Либо же можно создать и заполнить файл .env через VS Code.</p>
         <li>Бот готов к использованию.</li>
-        <pre><code>python main.py</code></pre></li>
+        <pre><code>python main.py</code></pre>
     </ul>
+    <h2>Возможные ошибки</h2>
+    <p>Ошибка при запуске проекта:</p>
+    <pre>File "frozen codecs", line 322, in decode UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte</pre>
+    <p>Исправление: Открыть файл .env с помощью VS Code в нижнем правом углу нажать на кодировку, затем выбрать Save with Encoding и выбрать кодировку UTF-8</p>
     <h2>Контакты</h2>
     <li>Автор: <a href="https://github.com/Ashurumaru/">ashuramaru</a></li>
 </body>
