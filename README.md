@@ -6,6 +6,7 @@
     <ul>
         <li><strong>Python:</strong> Проект создан с использованием языка программирования python.</li>
         <li><strong>Библиотека python-telegram-bot:</strong> Используется для разработки телеграм бота</li>
+        <li><strong>Библиотека aiomysql:</strong> Используется для асинхронного взаимодействия с базой данных MySQL в Python.</li>
     </ul>
       <h2>Инструкция</h2>
     <ul>
