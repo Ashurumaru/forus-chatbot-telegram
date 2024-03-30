@@ -11,6 +11,7 @@
     <ul>
         <li>Установите Python, если он еще не установлен. Можно скачать с <a href="https://www.python.org/downloads/">официального сайта Python</a>.(для проекта был использован python 3.11)</li>
         <li>Склонируйте репозиторий проекта на свой компьютер.</li>
+            <pre><code>git clone https://github.com/Ashurumaru/forus-chatbot-telegram.git</code></pre>
         <li>Перейдите в корневую директорию проекта.</li>
         <li>Создайте виртуальное окружение для проекта, чтобы изолировать зависимости. Это можно сделать с помощью команды:
     <pre><code>python -m venv venv</code></pre>
